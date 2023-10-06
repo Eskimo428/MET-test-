@@ -1,0 +1,1482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>МЕТ</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header__container">
+            <div class="logo__container">
+                <img src="/img/logo-header.svg" alt="logo">
+            </div>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__list__item">
+                        <a class="nav__list__link" href="#arguments">компания</a>
+                    </li>
+                    <li class="nav__list__item nav__list__link product-toggle">продукция
+                        <div class="tab-content display-none">
+                            <div class="tab-pane">
+                                <div class="speech-bubble">
+                                    <ul class="product-list">
+                                        <li>Твердомеры</li>
+                                        <li>Меры твердости</li>
+                                        <li>Подобрать твердомер</li>
+                                        <li>Подобрать меры твердости</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav__list__item">
+                        <a class="nav__list__link" href="#">Дилеры</a>
+                    </li>
+                    <li class="nav__list__item">
+                        <a class="nav__list__link" href="#infocenter">инфоцентр</a>
+                    </li>
+                    <li class="nav__list__item">
+                        <a class="nav__list__link" href="#infocenter">проверка подлинности</a>
+                    </li>
+                    <li class="nav__list__item">
+                        <a class="nav__list__link" href="#footer">контакты</a>
+                    </li>
+                </ul>
+            </nav>
+
+           
+
+
+            <div class="header_tel">
+                <a href="tel:88002227526">8 (800) 222-75-26</a>
+            </div>
+            <div class="header__language">
+                <img src="/img/Web.svg" alt="language__img">
+                <span class="language__text">ENG</span>
+            </div>
+            <div class="header__icon__container">
+                <img src="/img/Search.svg" alt="search" class="header__icon search-img">
+                <div class="header__search__container">
+                    <input type="text" class="header__search" placeholder="поиск">
+                </div>
+                <img src="/img/Cart.svg" alt="basket" class="header__icon">
+                <img src="/img/User.svg" alt="user" class="header__icon">
+            </div>
+        </div>
+        <div class="header__mobile">
+            <div class="logo__burger__container">
+                <img src="/img/logo-header.svg" alt="logo">
+            </div>
+
+            <nav class="nav__mobile">
+                <img src="/img/Phone (1).svg" alt="phone" class="header__phone__icon">
+                <img src="/img/Cart.svg" alt="basket" class="header__cart__icon">
+                <img src="/img/burger.svg" alt="burger" class="burger__icon">
+                <img src="/img/close.svg" alt="close" class="close__icon display-none" >
+
+            </nav>
+
+            <div class="burger__menu">
+                <div class="burger__container display-none">
+                    <div class="burger__up__container">
+                        <div class="burger__search">
+                            <input type="text" class="header__search header__search__mobile" placeholder="поиск">
+                        </div>
+                        <div class="personalLanguage">
+                            <span class="personal__container">
+                                <img src="/img/User.svg" alt="user" class="header__icon">
+                                Личный кабинет
+                            </span>
+                            <div class="header__language">
+                                <img src="/img/Web.svg" alt="language__img">
+                                <span class="language__text">ENG</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="burger__middle__container">
+                        <ul class="burger__mobile__list">
+                            <li class="burger__item">компания</li>
+                            <li class="burger__item burger__products">продукция</li>
+                            <ul class="sub-menu">
+                                <li class="sub-menu-item">Твердомеры</li>
+                                <li class="sub-menu-item">Меры твердости</li>
+                                <li class="sub-menu-item">Подобрать твердомер</li>
+                                <li class="sub-menu-item">Подобрать меры твердости</li>
+                            </ul>
+                            <li class="burger__item">Дилеры</li>
+                            <li class="burger__item">инфоцентр</li>
+                            <li class="burger__item">проверка подлинности</li>
+                            <li class="burger__item">контакты</li>
+                        </ul>
+                    </div>
+                    <div class="burger__down__container">
+                        <a href="tel:88002227526" class="burger__tel">8 (800) 222-75-26</a>
+                        <div class="burger__social__container">
+                            <ul class="burger__social__list">
+                                <li class="item-tg">
+                                    <a href="#">
+                                   
+                                        <svg width="48" height="48" viewbox="0 0 48 48" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="48" height="48" rx="24" fill="#313538" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M17.3581 23.5289C21.4924 21.7276 24.2493 20.5401 25.6287 19.9664C29.5672 18.3282 30.3855 18.0437 30.919 18.0343C31.0363 18.0322 31.2986 18.0613 31.4685 18.1992C31.612 18.3156 31.6515 18.4728 31.6703 18.5832C31.6892 18.6936 31.7128 18.9451 31.6941 19.1415C31.4806 21.384 30.5571 26.826 30.0873 29.3376C29.8885 30.4004 29.4971 30.7567 29.1181 30.7916C28.2945 30.8674 27.6692 30.2473 26.8715 29.7244C25.6233 28.9062 24.9181 28.3969 23.7065 27.5985C22.3063 26.6758 23.214 26.1686 24.012 25.3398C24.2208 25.1229 27.8495 21.8224 27.9197 21.5229C27.9285 21.4855 27.9367 21.3459 27.8538 21.2722C27.7708 21.1985 27.6484 21.2237 27.5601 21.2438C27.4349 21.2722 25.4409 22.5901 21.5781 25.1976C21.0121 25.5863 20.4995 25.7757 20.0401 25.7657C19.5338 25.7548 18.5597 25.4794 17.8356 25.244C16.9475 24.9553 16.2416 24.8027 16.303 24.3124C16.3351 24.057 16.6867 23.7959 17.3581 23.5289Z"
+                                                fill="white" />
+                                        </svg>
+
+                                    </a>
+                                </li>
+                                <li class="item-whatsapp">
+                                    <a href="#">
+                                       
+                                        <svg width="48" height="48" viewbox="0 0 48 48" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="48" height="48" rx="24" fill="#313538" />
+                                            <path
+                                                d="M15 33L16.2722 28.3802C15.4857 27.0242 15.0731 25.4886 15.0774 23.9187C15.0774 18.9995 19.1003 15 24.0387 15C26.437 15 28.6891 15.9282 30.3782 17.6136C32.0716 19.299 33.0043 21.5404 33 23.923C33 28.8422 28.9771 32.8417 24.0344 32.8417H24.0301C22.5301 32.8417 21.0559 32.4653 19.745 31.7552L15 33ZM19.9728 30.1426L20.2435 30.3051C21.3868 30.981 22.6977 31.336 24.0344 31.3403H24.0387C28.1433 31.3403 31.4871 28.0166 31.4871 23.9273C31.4871 21.9468 30.7135 20.086 29.308 18.683C27.9026 17.2799 26.0286 16.51 24.0387 16.51C19.9341 16.5057 16.5903 19.8294 16.5903 23.9187C16.5903 25.3175 16.9814 26.682 17.7292 27.8626L17.9054 28.145L17.1533 30.8783L19.9728 30.1426Z"
+                                                fill="white" />
+                                            <path
+                                                d="M15 33L16.2722 28.3802C15.4857 27.0242 15.0731 25.4886 15.0774 23.9187C15.0774 18.9995 19.1003 15 24.0387 15C26.437 15 28.6891 15.9282 30.3782 17.6136C32.0716 19.299 33.0043 21.5404 33 23.923C33 28.8422 28.9771 32.8417 24.0344 32.8417H24.0301C22.5301 32.8417 21.0559 32.4653 19.745 31.7552L15 33ZM19.9728 30.1426L20.2435 30.3051C21.3868 30.981 22.6977 31.336 24.0344 31.3403H24.0387C28.1433 31.3403 31.4871 28.0166 31.4871 23.9273C31.4871 21.9468 30.7135 20.086 29.308 18.683C27.9026 17.2799 26.0286 16.51 24.0387 16.51C19.9341 16.5057 16.5903 19.8294 16.5903 23.9187C16.5903 25.3175 16.9814 26.682 17.7292 27.8626L17.9054 28.145L17.1533 30.8783L19.9728 30.1426Z"
+                                                fill="white" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M21.7991 20.1886C21.6315 19.8164 21.4553 19.8079 21.2963 19.8036C21.1673 19.7993 21.0169 19.7993 20.8665 19.7993C20.716 19.7993 20.4754 19.8549 20.2691 20.0774C20.0627 20.2998 19.4868 20.8388 19.4868 21.9381C19.4868 23.0332 20.2905 24.094 20.4023 24.2437C20.514 24.3934 21.9539 26.7161 24.2275 27.6102C26.1186 28.3545 26.5054 28.2047 26.9137 28.1662C27.3221 28.1277 28.2375 27.6273 28.4266 27.1054C28.6115 26.5835 28.6115 26.1387 28.5556 26.0446C28.4997 25.9505 28.3493 25.8949 28.1258 25.7836C27.9023 25.6724 26.802 25.1334 26.5957 25.0564C26.3894 24.9837 26.239 24.9452 26.0928 25.1677C25.9424 25.3901 25.5126 25.8906 25.3837 26.0403C25.2547 26.19 25.1215 26.2071 24.898 26.0959C24.6745 25.9847 23.9524 25.7494 23.0971 24.988C22.4309 24.3977 21.9797 23.6662 21.8507 23.4438C21.7218 23.2214 21.8378 23.1016 21.9496 22.9904C22.0484 22.892 22.1731 22.7294 22.2848 22.6011C22.3966 22.4728 22.4352 22.3787 22.5083 22.229C22.5814 22.0793 22.547 21.9509 22.4911 21.8397C22.4352 21.7328 21.9968 20.6292 21.7991 20.1886Z"
+                                                fill="white" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="item-mail">
+                                    <a href="#">
+                               
+                                        <svg width="48" height="48" viewbox="0 0 48 48" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="48" height="48" rx="24" fill="#313538" />
+                                            <path
+                                                d="M28.1665 16.9165H19.8332C17.3332 16.9165 15.6665 18.1665 15.6665 21.0832V26.9165C15.6665 29.8332 17.3332 31.0832 19.8332 31.0832H28.1665C30.6665 31.0832 32.3332 29.8332 32.3332 26.9165V21.0832C32.3332 18.1665 30.6665 16.9165 28.1665 16.9165ZM28.5582 21.9915L25.9498 24.0748C25.3998 24.5165 24.6998 24.7332 23.9998 24.7332C23.2998 24.7332 22.5915 24.5165 22.0498 24.0748L19.4415 21.9915C19.1748 21.7748 19.1332 21.3748 19.3415 21.1082C19.5582 20.8415 19.9498 20.7915 20.2165 21.0082L22.8248 23.0915C23.4582 23.5998 24.5332 23.5998 25.1665 23.0915L27.7748 21.0082C28.0415 20.7915 28.4415 20.8332 28.6498 21.1082C28.8665 21.3748 28.8248 21.7748 28.5582 21.9915Z"
+                                                fill="white" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="item-sms">
+                                    <a href="#">
+                                 
+                                        <svg width="48" height="48" viewbox="0 0 48 48" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="48" height="48" rx="24" fill="#313538" />
+                                            <path
+                                                d="M28.1665 15.6665H19.8332C17.5332 15.6665 15.6665 17.5248 15.6665 19.8165V24.7998V25.6332C15.6665 27.9248 17.5332 29.7832 19.8332 29.7832H21.0832C21.3082 29.7832 21.6082 29.9332 21.7498 30.1165L22.9998 31.7748C23.5498 32.5082 24.4498 32.5082 24.9998 31.7748L26.2498 30.1165C26.4082 29.9082 26.6582 29.7832 26.9165 29.7832H28.1665C30.4665 29.7832 32.3332 27.9248 32.3332 25.6332V19.8165C32.3332 17.5248 30.4665 15.6665 28.1665 15.6665ZM20.6665 23.9998C20.1998 23.9998 19.8332 23.6248 19.8332 23.1665C19.8332 22.7082 20.2082 22.3332 20.6665 22.3332C21.1248 22.3332 21.4998 22.7082 21.4998 23.1665C21.4998 23.6248 21.1332 23.9998 20.6665 23.9998ZM23.9998 23.9998C23.5332 23.9998 23.1665 23.6248 23.1665 23.1665C23.1665 22.7082 23.5415 22.3332 23.9998 22.3332C24.4582 22.3332 24.8332 22.7082 24.8332 23.1665C24.8332 23.6248 24.4665 23.9998 23.9998 23.9998ZM27.3332 23.9998C26.8665 23.9998 26.4998 23.6248 26.4998 23.1665C26.4998 22.7082 26.8748 22.3332 27.3332 22.3332C27.7915 22.3332 28.1665 22.7082 28.1665 23.1665C28.1665 23.6248 27.7998 23.9998 27.3332 23.9998Z"
+                                                fill="white" />
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+        <div class="main__container">
+            <div class="main__content-up">
+                <ul class="main__figure-list">
+                    <li class="main__figure-item">
+                        <a class="main__figure-item" href="#true__hardness">01</a>
+                    </li>
+                    <li class="main__figure-item">
+                        <a class="main__figure-item" href="#03">02</a>
+                    </li>
+                    <li class="main__figure-item">
+                        <a class="main__figure-item" href="#productions">03</a>
+                    </li>
+                    <li class="main__figure-item">
+                        <a class="main__figure-item" href="#arguments">04</a>
+                    </li>
+                    <li class="main__figure-item">
+                        <a class="main__figure-item" href="#manufacture">05</a>
+                    </li>
+                    <li class="main__figure-item">
+                        <a class="main__figure-item" href="#infocenter">06</a>
+                    </li>
+                </ul>
+                <h3 class="main__title">
+                    Точность без<br> компромисcов
+                </h3>
+                <div class="main__container__watch-img">
+                    <img src="/img/video.png" alt="" class="main__watch-img">
+                </div>
+            </div>
+            <div class="main__content__middle">
+                <div class="container__hardness fade-in">
+                    <div class="left-container-hardness">
+                        <img src="/img/hardness.png" alt="hardness" class="main__content__hardness-img">
+                        <div class="left-container-text">
+                            <h2 class="header__hardness">
+                                Твердомеры
+                            </h2>
+                            <p class="descr__hardness">
+                                Как выбрать
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="right-container-hardness">
+                        <img src="/img/measure-blackout.png" alt="measure" class="main__content__messureBlackout-img">
+                        <div class="button__switch__container-hardness">
+                            <h3 class="hardness__switch-header">
+                                Меры
+                                твердости
+                            </h3>
+                            <img class="switch__meassure-btn" src="/img/switch-circle.svg" alt="button__switch">
+                        </div>
+
+
+                    </div>
+
+
+
+                </div>
+                <div class="container__measure fade-out">
+                    <div class="left-container">
+                        <img src="/img/hardness-blackout.png" alt="measure" class="main__content__hardnessBlackout-img">
+                        <div class="button__switch__container">
+                            <h3 class="hardness__switch-header meassure__switch-header">
+                                Твердомеры
+                            </h3>
+                            <img class="switch__hardness-btn" src="/img/switch-circle.svg" alt="button__switch">
+                        </div>
+                    </div>
+                    <div class="right-container">
+                        <img src="/img/measure.png" alt="measure" class="main__content__messure-img">
+                        <div class="right-container-text">
+                            <h2 class="header__measure">
+                                Меры<br>
+                                твердости
+                            </h2>
+                            <p class="descr__measure">
+                                Проверка подлинности
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="main__content__down">
+                <div class="switch__down__container">
+
+                    <div class="vertical-scrolldown">
+                        <h5 class="switch__down-text">
+                            <a class="switch__down-text" href="#footer">Вниз</a>
+                        </h5>
+                        <img src="/img/Scroll down.svg" alt="scrolldown">
+                    </div>
+
+                    <div class="switch__down__buy-container">
+                        <h5 class="switch__down__buy-text">
+                            Купить
+                        </h5>
+                    </div>
+                </div>
+                <div class="main__down__container-right">
+                    <img src="/img/gos.svg" alt="gosreestr" class="main__down-img">
+                </div>
+            </div>
+        </div>
+
+        <div class="social__container">
+            <div class="social">
+                <ul class="social__list">
+                    <li class="item-tg">
+                        <a href="#">
+                            <span>Telegram</span>
+                            <svg width="48" height="48" viewbox="0 0 48 48" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect width="48" height="48" rx="24" fill="#313538" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M17.3581 23.5289C21.4924 21.7276 24.2493 20.5401 25.6287 19.9664C29.5672 18.3282 30.3855 18.0437 30.919 18.0343C31.0363 18.0322 31.2986 18.0613 31.4685 18.1992C31.612 18.3156 31.6515 18.4728 31.6703 18.5832C31.6892 18.6936 31.7128 18.9451 31.6941 19.1415C31.4806 21.384 30.5571 26.826 30.0873 29.3376C29.8885 30.4004 29.4971 30.7567 29.1181 30.7916C28.2945 30.8674 27.6692 30.2473 26.8715 29.7244C25.6233 28.9062 24.9181 28.3969 23.7065 27.5985C22.3063 26.6758 23.214 26.1686 24.012 25.3398C24.2208 25.1229 27.8495 21.8224 27.9197 21.5229C27.9285 21.4855 27.9367 21.3459 27.8538 21.2722C27.7708 21.1985 27.6484 21.2237 27.5601 21.2438C27.4349 21.2722 25.4409 22.5901 21.5781 25.1976C21.0121 25.5863 20.4995 25.7757 20.0401 25.7657C19.5338 25.7548 18.5597 25.4794 17.8356 25.244C16.9475 24.9553 16.2416 24.8027 16.303 24.3124C16.3351 24.057 16.6867 23.7959 17.3581 23.5289Z"
+                                    fill="white" />
+                            </svg>
+
+                        </a>
+                    </li>
+                    <li class="item-whatsapp">
+                        <a href="#">
+                            <span>Whattsapp</span>
+                            <svg width="48" height="48" viewbox="0 0 48 48" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect width="48" height="48" rx="24" fill="#313538" />
+                                <path
+                                    d="M15 33L16.2722 28.3802C15.4857 27.0242 15.0731 25.4886 15.0774 23.9187C15.0774 18.9995 19.1003 15 24.0387 15C26.437 15 28.6891 15.9282 30.3782 17.6136C32.0716 19.299 33.0043 21.5404 33 23.923C33 28.8422 28.9771 32.8417 24.0344 32.8417H24.0301C22.5301 32.8417 21.0559 32.4653 19.745 31.7552L15 33ZM19.9728 30.1426L20.2435 30.3051C21.3868 30.981 22.6977 31.336 24.0344 31.3403H24.0387C28.1433 31.3403 31.4871 28.0166 31.4871 23.9273C31.4871 21.9468 30.7135 20.086 29.308 18.683C27.9026 17.2799 26.0286 16.51 24.0387 16.51C19.9341 16.5057 16.5903 19.8294 16.5903 23.9187C16.5903 25.3175 16.9814 26.682 17.7292 27.8626L17.9054 28.145L17.1533 30.8783L19.9728 30.1426Z"
+                                    fill="white" />
+                                <path
+                                    d="M15 33L16.2722 28.3802C15.4857 27.0242 15.0731 25.4886 15.0774 23.9187C15.0774 18.9995 19.1003 15 24.0387 15C26.437 15 28.6891 15.9282 30.3782 17.6136C32.0716 19.299 33.0043 21.5404 33 23.923C33 28.8422 28.9771 32.8417 24.0344 32.8417H24.0301C22.5301 32.8417 21.0559 32.4653 19.745 31.7552L15 33ZM19.9728 30.1426L20.2435 30.3051C21.3868 30.981 22.6977 31.336 24.0344 31.3403H24.0387C28.1433 31.3403 31.4871 28.0166 31.4871 23.9273C31.4871 21.9468 30.7135 20.086 29.308 18.683C27.9026 17.2799 26.0286 16.51 24.0387 16.51C19.9341 16.5057 16.5903 19.8294 16.5903 23.9187C16.5903 25.3175 16.9814 26.682 17.7292 27.8626L17.9054 28.145L17.1533 30.8783L19.9728 30.1426Z"
+                                    fill="white" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M21.7991 20.1886C21.6315 19.8164 21.4553 19.8079 21.2963 19.8036C21.1673 19.7993 21.0169 19.7993 20.8665 19.7993C20.716 19.7993 20.4754 19.8549 20.2691 20.0774C20.0627 20.2998 19.4868 20.8388 19.4868 21.9381C19.4868 23.0332 20.2905 24.094 20.4023 24.2437C20.514 24.3934 21.9539 26.7161 24.2275 27.6102C26.1186 28.3545 26.5054 28.2047 26.9137 28.1662C27.3221 28.1277 28.2375 27.6273 28.4266 27.1054C28.6115 26.5835 28.6115 26.1387 28.5556 26.0446C28.4997 25.9505 28.3493 25.8949 28.1258 25.7836C27.9023 25.6724 26.802 25.1334 26.5957 25.0564C26.3894 24.9837 26.239 24.9452 26.0928 25.1677C25.9424 25.3901 25.5126 25.8906 25.3837 26.0403C25.2547 26.19 25.1215 26.2071 24.898 26.0959C24.6745 25.9847 23.9524 25.7494 23.0971 24.988C22.4309 24.3977 21.9797 23.6662 21.8507 23.4438C21.7218 23.2214 21.8378 23.1016 21.9496 22.9904C22.0484 22.892 22.1731 22.7294 22.2848 22.6011C22.3966 22.4728 22.4352 22.3787 22.5083 22.229C22.5814 22.0793 22.547 21.9509 22.4911 21.8397C22.4352 21.7328 21.9968 20.6292 21.7991 20.1886Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="item-mail">
+                        <a href="#">
+                            <span>Mail</span>
+                            <svg width="48" height="48" viewbox="0 0 48 48" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect width="48" height="48" rx="24" fill="#313538" />
+                                <path
+                                    d="M28.1665 16.9165H19.8332C17.3332 16.9165 15.6665 18.1665 15.6665 21.0832V26.9165C15.6665 29.8332 17.3332 31.0832 19.8332 31.0832H28.1665C30.6665 31.0832 32.3332 29.8332 32.3332 26.9165V21.0832C32.3332 18.1665 30.6665 16.9165 28.1665 16.9165ZM28.5582 21.9915L25.9498 24.0748C25.3998 24.5165 24.6998 24.7332 23.9998 24.7332C23.2998 24.7332 22.5915 24.5165 22.0498 24.0748L19.4415 21.9915C19.1748 21.7748 19.1332 21.3748 19.3415 21.1082C19.5582 20.8415 19.9498 20.7915 20.2165 21.0082L22.8248 23.0915C23.4582 23.5998 24.5332 23.5998 25.1665 23.0915L27.7748 21.0082C28.0415 20.7915 28.4415 20.8332 28.6498 21.1082C28.8665 21.3748 28.8248 21.7748 28.5582 21.9915Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="item-sms">
+                        <a href="#">
+                            <span>Message</span>
+                            <svg width="48" height="48" viewbox="0 0 48 48" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect width="48" height="48" rx="24" fill="#313538" />
+                                <path
+                                    d="M28.1665 15.6665H19.8332C17.5332 15.6665 15.6665 17.5248 15.6665 19.8165V24.7998V25.6332C15.6665 27.9248 17.5332 29.7832 19.8332 29.7832H21.0832C21.3082 29.7832 21.6082 29.9332 21.7498 30.1165L22.9998 31.7748C23.5498 32.5082 24.4498 32.5082 24.9998 31.7748L26.2498 30.1165C26.4082 29.9082 26.6582 29.7832 26.9165 29.7832H28.1665C30.4665 29.7832 32.3332 27.9248 32.3332 25.6332V19.8165C32.3332 17.5248 30.4665 15.6665 28.1665 15.6665ZM20.6665 23.9998C20.1998 23.9998 19.8332 23.6248 19.8332 23.1665C19.8332 22.7082 20.2082 22.3332 20.6665 22.3332C21.1248 22.3332 21.4998 22.7082 21.4998 23.1665C21.4998 23.6248 21.1332 23.9998 20.6665 23.9998ZM23.9998 23.9998C23.5332 23.9998 23.1665 23.6248 23.1665 23.1665C23.1665 22.7082 23.5415 22.3332 23.9998 22.3332C24.4582 22.3332 24.8332 22.7082 24.8332 23.1665C24.8332 23.6248 24.4665 23.9998 23.9998 23.9998ZM27.3332 23.9998C26.8665 23.9998 26.4998 23.6248 26.4998 23.1665C26.4998 22.7082 26.8748 22.3332 27.3332 22.3332C27.7915 22.3332 28.1665 22.7082 28.1665 23.1665C28.1665 23.6248 27.7998 23.9998 27.3332 23.9998Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="main__mobile">
+            <div class="main__img-container-mobile">
+                <img src="/img/hardness-mobile.png" alt="hardness-mobile" class="hardness__mobile-img ">
+                <img src="/img/measure.png" alt="measure-mobile" class="measure__mobile-img display-none">
+            </div>
+            <div class="header__mobile__container">
+                <h5 class="hardness__header__mobile active__text" id="hardnessHeader">
+                    Твердомеры
+                </h5>
+                <h5 class="hardness__header__mobile" id="measureHeader">
+                    Меры твердости
+                </h5>
+                
+            </div>
+
+            <div class="header__btn__mobile">
+                <h5 class="descr__hardness">
+                    Как выбрать
+                </h5>
+                <h5 class="switch__down__buy-text">
+                    Купить
+                </h5>
+            </div>
+           
+        </div>
+
+        <div class="container">
+            <div class="sub__container margin-up">
+                <div class="main__left_container" id="true__hardness">
+                    <h4 class="main__subtitle">
+                        Достоверное измерение твердости по всем шкалам
+                    </h4>
+                    <div class="main__list__container">
+                        <div class="main__list__container-left">
+                            <h5 class="subtitle__list">
+                                Основные
+                            </h5>
+
+                            <ul class="main__left-list">
+                                <li class="main__left-item">Роквелла <span class="item-text">HRC</span></li>
+                                <li class="main__left-item">Бринелля <span class="item-text">HB</span></li>
+                                <li class="main__left-item">Виккерса <span class="item-text">HV</span></li>
+                                <li class="main__left-item">Шора <span class="item-text">HSD</span></li>
+                            </ul>
+                        </div>
+                        <div class="main__list__container-right">
+                            <h5 class="subtitle__list">
+                                Дополнительные
+                            </h5>
+
+                            <ul class="main__left-list">
+                                <li class="main__left-item">Роквелла <span class="item-text">HRB</span></li>
+                                <li class="main__left-item">Супер-Роквелла <span class="item-text">HRN / HRT</span></li>
+                                <li class="main__left-item">Лейба <span class="item-text">HL</span></li>
+                                <li class="main__left-item">и другие... </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="main__right_container">
+                    <img src="/img/main-right-img.png" alt="right-img-main">
+                </div>
+            </div>
+
+
+
+            <div class="sub__container ultra__container all__sub-container">
+                <div class="ultra__up__container">
+                    <h4 class="main__subtitle">
+                        Ультразвуковой и<br>
+                        динамический датчики
+
+                    </h4>
+                </div>
+                <div class="ultra__down__container">
+                    <div class="ultra__left_container">
+                        <h5 class="ultra__header">Включен в Госреестр СИ</h5>
+                        <ul class="ultra__list">
+                            <li class="ultra__item">
+                                ― Действие поверки 1 год
+                            </li>
+                            <li class="ultra__item">
+                                ― Поставляется поверенным
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="ultra__middle_container">
+                        <img src="/img/ultra-sound-img.png" alt="ultra-sound-img">
+                    </div>
+                    <div class="ultra__right_container">
+                        <h5 class="ultra__header">Быстрая калибровка по мерам 1 разряда
+                        </h5>
+                        <a href="#">Подробнее</a>
+                    </div>
+
+                    <div class="ultra__middle_container-mobile">
+                        <img src="/img/ultra-mobile-img.png" alt="ultra-sound-img">
+                    </div>
+                </div>
+            </div>
+
+            <div class="sub__container all__sub-container measure__hardness__container" id="03">
+                <div class="measure__hardness__left">
+                    <img src="/img/measure__hardness.png" alt="measure-hardness-img">
+                </div>
+                <div class="measure__hardness__right">
+                    <h4 class="measure__hardness__header">
+                        Измерение твёрдости по основным шкалам
+                    </h4>
+                    <p class="measure__hardness__descr">
+                        Достигается за счет калибровки только с помощью эталонных
+                        <span class="measure__hardness-text">мер твердости</span>
+                        без использования переводных таблиц, которые «зашиты» в программы других твердомеров,
+                        увеличивающих погрешность
+                        измерения.
+                    </p>
+                    <a href="#" class="measure__hardness__link">выбрать товар</a>
+                </div>
+            </div>
+
+            <div class="all__sub-container advantages__container">
+                <div class="sub__container advantages__container-left">
+                    <div class="container__content">
+                        <h4 class="advantages__header">
+                            Высокая степень защиты корпуса
+                        </h4>
+                        <ul class="advantages__list">
+                            <li class="advantages__item">
+                                Влагозащищенность: IP65
+                            </li>
+                            <li class="advantages__item">
+                                Температура: от -20°C до + 60°C
+                            </li>
+                            <li class="advantages__item">
+                                Ударопрочность: IK06
+                            </li>
+                        </ul>
+                    </div>
+                    <img src="/img/high-protection.png" alt="high-protection">
+
+                </div>
+
+                <div class="advantages__container-right">
+                    <div class="sub__container advantages__container-right-up">
+                        <h5 class="advantages__subtitle">
+                            Удобная передача и обработка данных на компьютере через высокоскоростной USB порт и
+                            специальное программное обеспечение.
+                        </h5>
+                        <img src="/img/cd.png" class="advantages__cd-img" alt="cd">
+                        <img src="/img/cd-mobile.png" class="cd-mobile" alt="cd-mobile">
+                    </div>
+                    <div class="sub__container advantages__container-right-down">
+                        <div class="advantages__link__container">
+                            <a href="#" class="measure__advantages__link">подробнее</a>
+                        </div>
+                        <div class="advantages__text__container">
+                            <h4 class="advantages__header">
+                                <span class="advantages__figure">3</span> года<br>
+                                гарантии
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="productions" id="productions">
+        <div class="container">
+            <h4 class="productions__header">
+                Наша продукция
+            </h4>
+            <div class="productions__tab__container-up">
+                <div></div>
+                <div class="tabs__container-up">
+                    <div class="productions__tabs__container">
+                        <h5 class="productions__tabs__item active-tab-productions" id="tverdometrTab">Твердомеры</h5>
+                        <h5 class="productions__tabs__item " id="merytverdostiTab">Меры твердости</h5>
+                    </div>
+                    <div class="productions__catalog__container">
+                        <img src="/img/catalog.svg" alt="catalog">
+                        <a href="#" class="catalog-header">В каталог</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="productions__slider__container">
+                <div class="arrows__container">
+                    <div class="arrow-left">
+                        <svg class="arrow-desktop" width="31" height="58" viewbox="0 0 31 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M30 1L2 29L30 57" stroke="#7F8589" stroke-width="1.5" />
+                        </svg>
+
+                        <svg class="arrow-mobile" width="33" height="33" viewbox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="16.5" cy="16.5" r="16.5" transform="matrix(-1 0 0 1 33 0)" fill="#F5F5F5"/>
+                            <path d="M19.5562 10.4299L12.9634 17.0227L19.5562 23.6155" stroke="#7F8589" stroke-width="1.41274"/>
+                            </svg>
+                            
+
+
+                    </div>
+                    <div class="arrow-right">
+                        <svg class="arrow-desktop" width="31" height="58" viewbox="0 0 31 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1L29 29L1 57" stroke="#7F8589" stroke-width="1.5" />
+                        </svg>
+
+                        <svg class="arrow-mobile" width="33" height="33" viewbox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="16.5" cy="16.5" r="16.5" fill="#F5F5F5"/>
+                            <path d="M13.4438 10.4299L20.0366 17.0227L13.4438 23.6155" stroke="#7F8589" stroke-width="1.41274"/>
+                            </svg>
+                            
+
+                    </div>
+                </div>
+                <div class="slider__hardness__content">
+                    <ul class="productions__slider__list" id="hardnessList">
+                        <li class="productions__slider__item">
+                            <ul class="slider__list-inside">
+                                <li class="slider__list-inside-item">
+                                    <h5 class="productions__slider__header">
+                                        Ультразвуковой твердомер МЕТ-УДА
+                                    </h5>
+
+                                    <img src="/img/slider-1.png" alt="" class="productions__slider__img">
+                                    <div class="slider__item__container-down">
+                                        <div class="slider__item__container-left">
+                                            <p class="slider__item-descr">В наличии</p>
+                                            <p class="slider__item-figure">
+                                                82 100
+
+                                            </p>
+                                        </div>
+                                        <div class="slider__item__container-right">
+                                            <img src="/img/cart-red.svg" alt="cart-red">
+                                            <img src="/img/arrow-black.svg" alt="arrow-black">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="slider__list-inside-item">
+                                    <h5 class="productions__slider__header">
+                                        Ультразвуковой твердомер МЕТ-УДА
+                                    </h5>
+                                    <img src="/img/slider-2.png" alt="" class="productions__slider__img">
+                                    <div class="dot__container">
+
+                                    </div>
+                                    <div class="slider__item__container-down">
+                                        <div class="slider__item__container-left">
+                                            <p class="slider__item-descr">В наличии</p>
+                                            <p class="slider__item-figure">
+                                                82 100
+
+                                            </p>
+                                        </div>
+                                        <div class="slider__item__container-right">
+                                            <img src="/img/cart-red.svg" alt="cart-red">
+                                            <img src="/img/arrow-black.svg" alt="arrow-black">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="slider__list-inside-item">
+                                    <h5 class="productions__slider__header">
+                                        Ультразвуковой твердомер МЕТ-УДА
+                                    </h5>
+                                    <img src="/img/slider-3.png" alt="" class="productions__slider__img">
+                                    <div class="dot__container">
+
+                                    </div>
+                                    <div class="slider__item__container-down">
+                                        <div class="slider__item__container-left">
+                                            <p class="slider__item-descr">В наличии</p>
+                                            <p class="slider__item-figure">
+                                                <span class="line-through">
+                                                    85 200
+                                                </span>
+                                                <span class="slider__item-figure-black">
+                                                    79 368
+                                                </span>
+                                            </p>
+                                        </div>
+                                        <div class="slider__item__container-right">
+                                            <img src="/img/cart-red.svg" alt="cart-red">
+                                            <img src="/img/arrow-black.svg" alt="arrow-black">
+                                        </div>
+                                    </div>
+                                </li>
+                                <div class="dot__container">
+                                    <div class="dot active"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                </div>
+                            </ul>
+
+                        </li>
+                        <li class="productions__slider__item">
+                            <ul class="slider__list-inside">
+
+                                <li class="slider__list-inside-item">
+                                    <h5 class="productions__slider__header">
+                                        Ультразвуковой твердомер МЕТ-УДА
+                                    </h5>
+                                    <img src="/img/slider-2.png" alt="" class="productions__slider__img">
+                                    <div class="dot__container">
+
+                                    </div>
+                                    <div class="slider__item__container-down">
+                                        <div class="slider__item__container-left">
+                                            <p class="slider__item-descr">В наличии</p>
+                                            <p class="slider__item-figure">
+                                                82 100
+
+                                            </p>
+                                        </div>
+                                        <div class="slider__item__container-right">
+                                            <img src="/img/cart-red.svg" alt="cart-red">
+                                            <img src="/img/arrow-black.svg" alt="arrow-black">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="slider__list-inside-item">
+                                    <h5 class="productions__slider__header">
+                                        Ультразвуковой твердомер МЕТ-УДА
+                                    </h5>
+                                    <img src="/img/slider-3.png" alt="" class="productions__slider__img">
+                                    <div class="dot__container">
+
+                                    </div>
+                                    <div class="slider__item__container-down">
+                                        <div class="slider__item__container-left">
+                                            <p class="slider__item-descr">В наличии</p>
+                                            <p class="slider__item-figure">
+                                                <span class="line-through">
+                                                    85 200
+                                                </span>
+                                                <span class="slider__item-figure-black">
+                                                    79 368
+                                                </span>
+                                            </p>
+                                        </div>
+                                        <div class="slider__item__container-right">
+                                            <img src="/img/cart-red.svg" alt="cart-red">
+                                            <img src="/img/arrow-black.svg" alt="arrow-black">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="slider__list-inside-item">
+                                    <h5 class="productions__slider__header">
+                                        Ультразвуковой твердомер МЕТ-УДА
+                                    </h5>
+
+                                    <img src="/img/slider-1.png" alt="" class="productions__slider__img">
+                                    <div class="slider__item__container-down">
+                                        <div class="slider__item__container-left">
+                                            <p class="slider__item-descr">В наличии</p>
+                                            <p class="slider__item-figure">
+                                                82 100
+
+                                            </p>
+                                        </div>
+                                        <div class="slider__item__container-right">
+                                            <img src="/img/cart-red.svg" alt="cart-red">
+                                            <img src="/img/arrow-black.svg" alt="arrow-black">
+                                        </div>
+                                    </div>
+                                </li>
+                                <div class="dot__container">
+                                    <div class="dot active"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="productions__slider__item">
+                            <ul class="slider__list-inside">
+                                <li class="slider__list-inside-item">
+                                    <h5 class="productions__slider__header">
+                                        Ультразвуковой твердомер МЕТ-УДА
+                                    </h5>
+                                    <img src="/img/slider-3.png" alt="" class="productions__slider__img">
+                                    <div class="dot__container">
+
+                                    </div>
+                                    <div class="slider__item__container-down">
+                                        <div class="slider__item__container-left">
+                                            <p class="slider__item-descr">В наличии</p>
+                                            <p class="slider__item-figure">
+                                                <span class="line-through">
+                                                    85 200
+                                                </span>
+                                                <span class="slider__item-figure-black">
+                                                    79 368
+                                                </span>
+                                            </p>
+                                        </div>
+                                        <div class="slider__item__container-right">
+                                            <img src="/img/cart-red.svg" alt="cart-red">
+                                            <img src="/img/arrow-black.svg" alt="arrow-black">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="slider__list-inside-item">
+                                    <h5 class="productions__slider__header">
+                                        Ультразвуковой твердомер МЕТ-УДА
+                                    </h5>
+
+                                    <img src="/img/slider-1.png" alt="" class="productions__slider__img">
+                                    <div class="slider__item__container-down">
+                                        <div class="slider__item__container-left">
+                                            <p class="slider__item-descr">В наличии</p>
+                                            <p class="slider__item-figure">
+                                                82 100
+
+                                            </p>
+                                        </div>
+                                        <div class="slider__item__container-right">
+                                            <img src="/img/cart-red.svg" alt="cart-red">
+                                            <img src="/img/arrow-black.svg" alt="arrow-black">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="slider__list-inside-item">
+                                    <h5 class="productions__slider__header">
+                                        Ультразвуковой твердомер МЕТ-УДА
+                                    </h5>
+                                    <img src="/img/slider-2.png" alt="" class="productions__slider__img">
+                                    <div class="dot__container">
+
+                                    </div>
+                                    <div class="slider__item__container-down">
+                                        <div class="slider__item__container-left">
+                                            <p class="slider__item-descr">В наличии</p>
+                                            <p class="slider__item-figure">
+                                                82 100
+
+                                            </p>
+                                        </div>
+                                        <div class="slider__item__container-right">
+                                            <img src="/img/cart-red.svg" alt="cart-red">
+                                            <img src="/img/arrow-black.svg" alt="arrow-black">
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <div class="dot__container">
+                                    <div class="dot active"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                </div>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="slider__measure__content display-none">
+                    <ul class="productions__slider__list " id="measureList">
+                        <li class="productions__slider__item">
+                            <ul class="slider__list-inside">
+                                <li class="slider__list-inside-item">
+                                    <h5 class="productions__slider__header">
+                                        Ультразвуковой твердомер МЕТ-УДА
+                                    </h5>
+
+                                    <img src="/img/measure.png" alt="" class="productions__slider__img">
+                                    <div class="slider__item__container-down">
+                                        <div class="slider__item__container-left">
+                                            <p class="slider__item-descr">В наличии</p>
+                                            <p class="slider__item-figure">
+                                                82 100
+
+                                            </p>
+                                        </div>
+                                        <div class="slider__item__container-right">
+                                            <img src="/img/cart-red.svg" alt="cart-red">
+                                            <img src="/img/arrow-black.svg" alt="arrow-black">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="slider__list-inside-item">
+                                    <h5 class="productions__slider__header">
+                                        Ультразвуковой твердомер МЕТ-УДА
+                                    </h5>
+                                    <img src="/img/slider-2.png" alt="" class="productions__slider__img">
+                                    <div class="dot__container">
+
+                                    </div>
+                                    <div class="slider__item__container-down">
+                                        <div class="slider__item__container-left">
+                                            <p class="slider__item-descr">В наличии</p>
+                                            <p class="slider__item-figure">
+                                                82 100
+
+                                            </p>
+                                        </div>
+                                        <div class="slider__item__container-right">
+                                            <img src="/img/cart-red.svg" alt="cart-red">
+                                            <img src="/img/arrow-black.svg" alt="arrow-black">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="slider__list-inside-item">
+                                    <h5 class="productions__slider__header">
+                                        Ультразвуковой твердомер МЕТ-УДА
+                                    </h5>
+                                    <img src="/img/slider-3.png" alt="" class="productions__slider__img">
+                                    <div class="dot__container">
+
+                                    </div>
+                                    <div class="slider__item__container-down">
+                                        <div class="slider__item__container-left">
+                                            <p class="slider__item-descr">В наличии</p>
+                                            <p class="slider__item-figure">
+                                                <span class="line-through">
+                                                    85 200
+                                                </span>
+                                                <span class="slider__item-figure-black">
+                                                    79 368
+                                                </span>
+                                            </p>
+                                        </div>
+                                        <div class="slider__item__container-right">
+                                            <img src="/img/cart-red.svg" alt="cart-red">
+                                            <img src="/img/arrow-black.svg" alt="arrow-black">
+                                        </div>
+                                    </div>
+                                </li>
+                                <div class="dot__container">
+                                    <div class="dot active"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                </div>
+                            </ul>
+
+                        </li>
+                        <li class="productions__slider__item">
+                            <ul class="slider__list-inside">
+
+                                <li class="slider__list-inside-item">
+                                    <h5 class="productions__slider__header">
+                                        Ультразвуковой твердомер МЕТ-УДА
+                                    </h5>
+                                    <img src="/img/slider-1.png" alt="" class="productions__slider__img">
+                                    <div class="dot__container">
+
+                                    </div>
+                                    <div class="slider__item__container-down">
+                                        <div class="slider__item__container-left">
+                                            <p class="slider__item-descr">В наличии</p>
+                                            <p class="slider__item-figure">
+                                                82 100
+
+                                            </p>
+                                        </div>
+                                        <div class="slider__item__container-right">
+                                            <img src="/img/cart-red.svg" alt="cart-red">
+                                            <img src="/img/arrow-black.svg" alt="arrow-black">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="slider__list-inside-item">
+                                    <h5 class="productions__slider__header">
+                                        Ультразвуковой твердомер МЕТ-УДА
+                                    </h5>
+                                    <img src="/img/slider-3.png" alt="" class="productions__slider__img">
+                                    <div class="dot__container">
+
+                                    </div>
+                                    <div class="slider__item__container-down">
+                                        <div class="slider__item__container-left">
+                                            <p class="slider__item-descr">В наличии</p>
+                                            <p class="slider__item-figure">
+                                                <span class="line-through">
+                                                    85 200
+                                                </span>
+                                                <span class="slider__item-figure-black">
+                                                    79 368
+                                                </span>
+                                            </p>
+                                        </div>
+                                        <div class="slider__item__container-right">
+                                            <img src="/img/cart-red.svg" alt="cart-red">
+                                            <img src="/img/arrow-black.svg" alt="arrow-black">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="slider__list-inside-item">
+                                    <h5 class="productions__slider__header">
+                                        Ультразвуковой твердомер МЕТ-УДА
+                                    </h5>
+
+                                    <img src="/img/slider-1.png" alt="" class="productions__slider__img">
+                                    <div class="slider__item__container-down">
+                                        <div class="slider__item__container-left">
+                                            <p class="slider__item-descr">В наличии</p>
+                                            <p class="slider__item-figure">
+                                                82 100
+
+                                            </p>
+                                        </div>
+                                        <div class="slider__item__container-right">
+                                            <img src="/img/cart-red.svg" alt="cart-red">
+                                            <img src="/img/arrow-black.svg" alt="arrow-black">
+                                        </div>
+                                    </div>
+                                </li>
+                                <div class="dot__container">
+                                    <div class="dot active"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="productions__slider__item">
+
+                            <ul class="slider__list-inside">
+                                <li class="slider__list-inside-item">
+                                    <h5 class="productions__slider__header">
+                                        Ультразвуковой твердомер МЕТ-УДА
+                                    </h5>
+                                    <img src="/img/measure.png" alt="" class="productions__slider__img">
+                                    <div class="dot__container">
+
+                                    </div>
+                                    <div class="slider__item__container-down">
+                                        <div class="slider__item__container-left">
+                                            <p class="slider__item-descr">В наличии</p>
+                                            <p class="slider__item-figure">
+                                                <span class="line-through">
+                                                    85 200
+                                                </span>
+                                                <span class="slider__item-figure-black">
+                                                    79 368
+                                                </span>
+                                            </p>
+                                        </div>
+                                        <div class="slider__item__container-right">
+                                            <img src="/img/cart-red.svg" alt="cart-red">
+                                            <img src="/img/arrow-black.svg" alt="arrow-black">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="slider__list-inside-item">
+                                    <h5 class="productions__slider__header">
+                                        Ультразвуковой твердомер МЕТ-УДА
+                                    </h5>
+
+                                    <img src="/img/slider-1.png" alt="" class="productions__slider__img">
+                                    <div class="slider__item__container-down">
+                                        <div class="slider__item__container-left">
+                                            <p class="slider__item-descr">В наличии</p>
+                                            <p class="slider__item-figure">
+                                                82 100
+
+                                            </p>
+                                        </div>
+                                        <div class="slider__item__container-right">
+                                            <img src="/img/cart-red.svg" alt="cart-red">
+                                            <img src="/img/arrow-black.svg" alt="arrow-black">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="slider__list-inside-item">
+                                    <h5 class="productions__slider__header">
+                                        Ультразвуковой твердомер МЕТ-УДА
+                                    </h5>
+                                    <img src="/img/slider-2.png" alt="" class="productions__slider__img">
+                                    <div class="dot__container">
+
+                                    </div>
+                                    <div class="slider__item__container-down">
+                                        <div class="slider__item__container-left">
+                                            <p class="slider__item-descr">В наличии</p>
+                                            <p class="slider__item-figure">
+                                                82 100
+
+                                            </p>
+                                        </div>
+                                        <div class="slider__item__container-right">
+                                            <img src="/img/cart-red.svg" alt="cart-red">
+                                            <img src="/img/arrow-black.svg" alt="arrow-black">
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <div class="dot__container">
+                                    <div class="dot active"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                </div>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="advantages__link__container">
+                    <a href="#" class="measure__advantages__link productions__mobile-link">в каталог</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="arguments" id="arguments">
+        <div class="container">
+            <h4 class="productions__arguments">
+                Твердые аргументы
+            </h4>
+
+            <div class="arguments__container__up">
+                <div class="arguments__left__up">
+                    <h5 class="argument__header">
+                        <span class="argument__figure">
+                            24
+                        </span>
+                        года <br>на рынке
+                    </h5>
+                    <p class="arguments__descr">
+                        Центр «МЕТ» - разработчик высокоточных портативных твердомеров и мер твердости. Портативные
+                        твердомеры МЕТ позволяют осуществлять достоверный контроль твердости изделий из металла. Меры
+                        твердости МЕТ – средства измерения, позволяющие осуществлять поверку и калибровку твердомеров.
+                    </p>
+                    <div class="argument__container__btn">
+                        <div class="arguments__container__btn-up">
+                            <a href="#" class="arguments__btn sert-icon">Сертификаты</a>
+                            <a href="#" class="arguments__btn prize-icon">Награды</a>
+                        </div>
+                        <a href="#" class="arguments__btn feetback-icon">Отзывы</a>
+                    </div>
+                </div>
+                <div class="arguments__right__up">
+                    <h5 class="argument__header">
+                        Нам доверяют
+                    </h5>
+
+                    <div class="argument__container__icon">
+                        <ul class="icon__list">
+                            <li class="icon__item">
+                                <img src="/img/lada-logo 1.svg" alt="lada" class="icon-img">
+                            </li>
+                            <li class="icon__item">
+                                <img src="/img/bosch-logo-simple 1.svg" alt="bosch" class="icon-img">
+                            </li>
+                            <li class="icon__item">
+                                <img src="/img/kamaz____ 1.svg" alt="kamaz" class="icon-img">
+                            </li>
+                            <li class="icon__item">
+                                <img src="/img/rot-front-1 1.svg" alt="rotfront" class="icon-img">
+                            </li>
+                            <li class="icon__item">
+                                <img src="/img/RZD 1.svg" alt="rzd" class="icon-img">
+                            </li>
+                            <li class="icon__item">
+                                <img src="/img/Frame.svg" alt="rosatom" class="icon-img">
+                            </li>
+                            <li class="icon__item">
+                                <img src="/img/logo 1.svg" alt="vmz" class="icon-img">
+                            </li>
+                            <li class="icon__item">
+                                <img src="/img/gaz 1.svg" alt="gaz" class="icon-img">
+                            </li>
+                            <li class="icon__item">
+                                <img src="/img/baikal 1.svg" alt="baltika" class="icon-img">
+                            </li>
+                            <li class="icon__item">
+                                <img src="/img/baikal 1.svg" alt="baikal" class="icon-img">
+                            </li>
+                            <li class="icon__item">
+                                <img src="/img/volkswagen-3 1.svg" alt="vw" class="icon-img">
+                            </li>
+                            <li class="icon__item">
+                                <img src="/img/severstal 1.svg" alt="severstal" class="icon-img">
+                            </li>
+                        </ul>
+                        <a href="#" class="arguments__link">Все клиенты</a>
+                    </div>
+                </div>
+            </div>
+            <div class="arguments__container__down">
+                <div class="arguments__social__container">
+                    <ul class="arguments__social__list">
+                        <li class="arguments__social__item">
+                            <div class="arguments__social__text">
+                                <h5 class="social__header">
+                                    telegram
+                                </h5>
+                                <a href="" class="social__link">tverdomery_met</a>
+                            </div>
+                            <div class="solcial-tg">
+                                <svg width="48" height="48" viewbox="0 0 48 48" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="48" height="48" rx="24" fill="#fff" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M17.3581 23.5289C21.4924 21.7276 24.2493 20.5401 25.6287 19.9664C29.5672 18.3282 30.3855 18.0437 30.919 18.0343C31.0363 18.0322 31.2986 18.0613 31.4685 18.1992C31.612 18.3156 31.6515 18.4728 31.6703 18.5832C31.6892 18.6936 31.7128 18.9451 31.6941 19.1415C31.4806 21.384 30.5571 26.826 30.0873 29.3376C29.8885 30.4004 29.4971 30.7567 29.1181 30.7916C28.2945 30.8674 27.6692 30.2473 26.8715 29.7244C25.6233 28.9062 24.9181 28.3969 23.7065 27.5985C22.3063 26.6758 23.214 26.1686 24.012 25.3398C24.2208 25.1229 27.8495 21.8224 27.9197 21.5229C27.9285 21.4855 27.9367 21.3459 27.8538 21.2722C27.7708 21.1985 27.6484 21.2237 27.5601 21.2438C27.4349 21.2722 25.4409 22.5901 21.5781 25.1976C21.0121 25.5863 20.4995 25.7757 20.0401 25.7657C19.5338 25.7548 18.5597 25.4794 17.8356 25.244C16.9475 24.9553 16.2416 24.8027 16.303 24.3124C16.3351 24.057 16.6867 23.7959 17.3581 23.5289Z"
+                                        fill="#259CD8" />
+                                </svg>
+                            </div>
+                        </li>
+                        <li class="arguments__social__item">
+                            <div class="arguments__social__text">
+                                <h5 class="social__header">
+                                    email
+                                </h5>
+                                <a href="mailto:mng@tverdomer.ru" class="social__link">mng@tverdomer.ru</a>
+                            </div>
+                            <div class="solcial-mail">
+                                <svg width="48" height="48" viewbox="0 0 48 48" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="48" height="48" rx="24" fill="#FF3E41" />
+                                    <path
+                                        d="M28.1665 16.9165H19.8332C17.3332 16.9165 15.6665 18.1665 15.6665 21.0832V26.9165C15.6665 29.8332 17.3332 31.0832 19.8332 31.0832H28.1665C30.6665 31.0832 32.3332 29.8332 32.3332 26.9165V21.0832C32.3332 18.1665 30.6665 16.9165 28.1665 16.9165ZM28.5582 21.9915L25.9498 24.0748C25.3998 24.5165 24.6998 24.7332 23.9998 24.7332C23.2998 24.7332 22.5915 24.5165 22.0498 24.0748L19.4415 21.9915C19.1748 21.7748 19.1332 21.3748 19.3415 21.1082C19.5582 20.8415 19.9498 20.7915 20.2165 21.0082L22.8248 23.0915C23.4582 23.5998 24.5332 23.5998 25.1665 23.0915L27.7748 21.0082C28.0415 20.7915 28.4415 20.8332 28.6498 21.1082C28.8665 21.3748 28.8248 21.7748 28.5582 21.9915Z"
+                                        fill="white" />
+                                </svg>
+
+                            </div>
+                        </li>
+                        <li class="arguments__social__item">
+                            <div class="arguments__social__text">
+                                <h5 class="social__header">
+                                    whatsapp
+                                </h5>
+                                <a href="tel:8-800-222-75-26" class="social__link">8 (800) 222-75-26</a>
+                            </div>
+                            <div class="solcial-whatsapp">
+                                <svg width="48" height="48" viewbox="0 0 48 48" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="48" height="48" rx="24" fill="#25CB63" />
+                                    <path
+                                        d="M15 33L16.2722 28.3802C15.4857 27.0242 15.0731 25.4886 15.0774 23.9187C15.0774 18.9995 19.1003 15 24.0387 15C26.437 15 28.6891 15.9282 30.3782 17.6136C32.0716 19.299 33.0043 21.5404 33 23.923C33 28.8422 28.9771 32.8417 24.0344 32.8417H24.0301C22.5301 32.8417 21.0559 32.4653 19.745 31.7552L15 33ZM19.9728 30.1426L20.2435 30.3051C21.3868 30.981 22.6977 31.336 24.0344 31.3403H24.0387C28.1433 31.3403 31.4871 28.0166 31.4871 23.9273C31.4871 21.9468 30.7135 20.086 29.308 18.683C27.9026 17.2799 26.0286 16.51 24.0387 16.51C19.9341 16.5057 16.5903 19.8294 16.5903 23.9187C16.5903 25.3175 16.9814 26.682 17.7292 27.8626L17.9054 28.145L17.1533 30.8783L19.9728 30.1426Z"
+                                        fill="white" />
+                                    <path
+                                        d="M15 33L16.2722 28.3802C15.4857 27.0242 15.0731 25.4886 15.0774 23.9187C15.0774 18.9995 19.1003 15 24.0387 15C26.437 15 28.6891 15.9282 30.3782 17.6136C32.0716 19.299 33.0043 21.5404 33 23.923C33 28.8422 28.9771 32.8417 24.0344 32.8417H24.0301C22.5301 32.8417 21.0559 32.4653 19.745 31.7552L15 33ZM19.9728 30.1426L20.2435 30.3051C21.3868 30.981 22.6977 31.336 24.0344 31.3403H24.0387C28.1433 31.3403 31.4871 28.0166 31.4871 23.9273C31.4871 21.9468 30.7135 20.086 29.308 18.683C27.9026 17.2799 26.0286 16.51 24.0387 16.51C19.9341 16.5057 16.5903 19.8294 16.5903 23.9187C16.5903 25.3175 16.9814 26.682 17.7292 27.8626L17.9054 28.145L17.1533 30.8783L19.9728 30.1426Z"
+                                        fill="white" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M21.7991 20.1886C21.6315 19.8164 21.4553 19.8079 21.2963 19.8036C21.1673 19.7993 21.0169 19.7993 20.8665 19.7993C20.716 19.7993 20.4754 19.8549 20.2691 20.0774C20.0627 20.2998 19.4868 20.8388 19.4868 21.9381C19.4868 23.0332 20.2905 24.094 20.4023 24.2437C20.514 24.3934 21.9539 26.7161 24.2275 27.6102C26.1186 28.3545 26.5054 28.2047 26.9137 28.1662C27.3221 28.1277 28.2375 27.6273 28.4266 27.1054C28.6115 26.5835 28.6115 26.1387 28.5556 26.0446C28.4997 25.9505 28.3493 25.8949 28.1258 25.7836C27.9023 25.6724 26.802 25.1334 26.5957 25.0564C26.3894 24.9837 26.239 24.9452 26.0928 25.1677C25.9424 25.3901 25.5126 25.8906 25.3837 26.0403C25.2547 26.19 25.1215 26.2071 24.898 26.0959C24.6745 25.9847 23.9524 25.7494 23.0971 24.988C22.4309 24.3977 21.9797 23.6662 21.8507 23.4438C21.7218 23.2214 21.8378 23.1016 21.9496 22.9904C22.0484 22.892 22.1731 22.7294 22.2848 22.6011C22.3966 22.4728 22.4352 22.3787 22.5083 22.229C22.5814 22.0793 22.547 21.9509 22.4911 21.8397C22.4352 21.7328 21.9968 20.6292 21.7991 20.1886Z"
+                                        fill="white" />
+                                </svg>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="manufacture__container" id="manufacture">
+                <h4 class="manufacture__header">
+                    Наше производство
+                </h4>
+
+                <div class="manufacture__slider__container">
+                    <div class="arrows__container__manufacture">
+                        <div class="arrow-left-manufacture">
+                            <svg class="arrow-desktop" width="31" height="58" viewbox="0 0 31 58" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M30 1L2 29L30 57" stroke="#7F8589" stroke-width="1.5" />
+                            </svg>
+
+
+                            <svg class="arrow-mobile"  width="33" height="34" viewbox="0 0 33 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="16.5" cy="16.5" r="16.5" transform="matrix(-1 0 0 1 33 0.623047)" fill="#25292C"/>
+                                <path d="M19.5562 11.053L12.9634 17.6458L19.5562 24.2386" stroke="#7F8589" stroke-width="1.41274"/>
+                                </svg>
+                                
+                        </div>
+                        <div class="arrow-right-manufacture">
+                            <svg class="arrow-desktop" width="31" height="58" viewbox="0 0 31 58" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1L29 29L1 57" stroke="#7F8589" stroke-width="1.5" />
+                            </svg>
+
+                            <svg class="arrow-mobile" width="33" height="34" viewbox="0 0 33 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="16.5" cy="17.123" r="16.5" fill="#25292C"/>
+                                <path d="M13.4438 11.053L20.0366 17.6458L13.4438 24.2386" stroke="#7F8589" stroke-width="1.41274"/>
+                                </svg>
+                                
+                        </div>
+                    </div>
+
+                    <div class="slider__manufacture__content">
+                        <ul class="manufacture__slider__list" id="manufacture-slider">
+                            <li class="manufacture__slider__item">
+                                <img src="/img/slider-manufacture-1.png" alt="slider-manufacture-1"
+                                    class="enlarge-image">
+
+                            </li>
+                            <li class="manufacture__slider__item">
+                                <div class="img__manufacture__container">
+                                    <div class="img-up-container">
+                                        <img src="/img/slider-manufacture 2-1.png" alt="sliderm-2"
+                                            class="enlarge-image">
+                                        <img src="/img/slider-manufacture 2-2.png" alt="sliderm-2"
+                                            class="enlarge-image">
+                                    </div>
+                                    <div class="img-down-container">
+                                        <img src="/img/slider-manufacture 2-3.png" alt="sliderm-2"
+                                            class="enlarge-image">
+                                        <img src="/img/slider-manufacture 2-4.png" alt="sliderm-2"
+                                            class="enlarge-image">
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="manufacture__slider__item">
+                                <img src="/img/slider-manufacture-3.png" alt="slider-manufacture-3"
+                                    class="brightness enlarge-image">
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="modal" id="image-modal">
+                        <span class="close-modal" id="close-modal">&times;</span>
+                        <img class="modal-content" id="modal-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="info" id="infocenter">
+
+        <div class="container">
+            <h4 class="info__header">
+                Инфоцентр
+            </h4>
+
+            <div class="info__slider__container">
+                <div class="arrows__container__info">
+                    <div class="arrow-left-info">
+                        <svg class="arrow-desktop" width="31" height="58" viewbox="0 0 31 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M30 1L2 29L30 57" stroke="#7F8589" stroke-width="1.5" />
+                        </svg>
+
+                        <svg class="arrow-mobile" width="33" height="33" viewbox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="16.5" cy="16.5" r="16.5" transform="matrix(-1 0 0 1 33 0)" fill="#F5F5F5"/>
+                            <path d="M19.5562 10.4299L12.9634 17.0227L19.5562 23.6155" stroke="#7F8589" stroke-width="1.41274"/>
+                            </svg>
+                            
+
+                    </div>
+                    <div class="arrow-right-info">
+                        <svg class="arrow-desktop" width="31" height="58" viewbox="0 0 31 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1L29 29L1 57" stroke="#7F8589" stroke-width="1.5" />
+                        </svg>
+
+                        <svg class="arrow-mobile" width="33" height="33" viewbox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="16.5" cy="16.5" r="16.5" fill="#F5F5F5"/>
+                            <path d="M13.4438 10.4299L20.0366 17.0227L13.4438 23.6155" stroke="#7F8589" stroke-width="1.41274"/>
+                            </svg>
+                            
+
+                    </div>
+                </div>
+
+                <div class="slider__manufacture__content">
+                    <ul class="info__slider__list" id="infoSlider">
+                        <li class="info__slider__item">
+                            <div class="info__img__container">
+                                <img src="/img/info-slider-3.png" alt="" class="info-image">
+                            </div>
+                            <div class="info__text__container">
+                                <p class="info__up-text">
+                                    новости
+                                </p>
+                                <h5 class="info__descr">
+                                    Меры твердости поставляются теперь в фирменных металлических футлярах
+                                </h5>
+                                <div class="info__down__container">
+                                    <p class="info__date">
+                                        12 марта 2023
+                                    </p>
+                                    <a href="#" class="info__link"></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="info__slider__item">
+                            <div class="info__img__container">
+                                <img src="/img/info-slider-2.png" alt="" class="info-image">
+                            </div>
+                            <div class="info__text__container">
+                                <p class="info__up-text">
+                                    новости
+                                </p>
+                                <h5 class="info__descr">
+                                    МЕТ-HV50 ПРИЗНАН ЛАУРЕАТОМ ВЫСТАВКИ NDT-2023
+                                </h5>
+                                <div class="info__down__container">
+                                    <p class="info__date">
+                                        15 марта 2023
+                                    </p>
+                                    <a href="#" class="info__link"></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="info__slider__item">
+                            <div class="info__img__container">
+                                <img src="/img/info-slider-1.png" alt="" class="info-image">
+                            </div>
+                            <div class="info__text__container">
+                                <p class="info__up-text">
+                                    новости
+                                </p>
+                                <h5 class="info__descr">
+                                    Внимание, АКЦИЯ! Твердомер  МЕТ-УД теперь дешевле на 15%
+                                </h5>
+                                <div class="info__down__container">
+                                    <p class="info__date">
+                                        19 марта 2023
+                                    </p>
+                                    <a href="#" class="info__link"></a>
+                                </div>
+                            </div>
+                        </li>
+
+
+                    </ul>
+                </div>
+                <div class="info__down-right">
+                    <a href="#" class="info__all__link">Все публикации</a>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="footer__up__container">
+                <div class="footer__left">
+                    <img src="/img/logo-header.svg" alt="" class="footer__logo logo-desktop">
+                </div>
+                <div class="footer__center">
+                    <div class="footer__list-left">
+                        <h5 class="footer__header">
+                            Продукция
+                        </h5>
+
+                        <ul class="footer__list">
+                            <li class="footer__item">Портативные твердомеры</li>
+                            <li class="footer__item">Миниатюрные твердомеры</li>
+                            <li class="footer__item">Эталонные меры твердости</li>
+                            <li class="footer__item">Эталонные меры микротвердости</li>
+                            <li class="footer__item">Подбор твердомера</li>
+                            <li class="footer__item">Выбор мер твердости</li>
+                            <li class="footer__item">Техническая поддержка</li>
+                            <li class="footer__item">Часто задаваемые вопросы</li>
+                        </ul>
+                    </div>
+                    <div class="footer__list-right">
+                        <h5 class="footer__header">
+                            Компания
+                        </h5>
+                        <ul class="footer__list">
+                            <li class="footer__item">О компании</li>
+                            <li class="footer__item">Музей твердометрии</li>
+                            <li class="footer__item">Сертификация</li>
+                            <li class="footer__item">Отзывы</li>
+                        </ul>
+                        <div class="footer__right__down">
+                            <h5 class="footer__header">
+                                <a class="footer__header" href="#"> Дилеры</a>
+
+                            </h5>
+                            <h5 class="footer__header">
+                                <a class="footer__header" href="#"> Инфоцентр</a>
+
+                            </h5>
+                            <h5 class="footer__header">
+                                <a class="footer__header" href="#"> Проверка подлинности</a>
+
+                            </h5>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="footer__right">
+                    <div class="footer__mobile">
+                        <img src="/img/logo-header.svg" alt="" class="footer__logo">
+                    </div>
+                    <div class="footer__contacts">
+                        <a href="tel:88002227526" class="footer__tel">8 (800) 222-75-26</a>
+                        <a href="#" class="footer__call">Заказать звонок</a>
+                        <a href="mailto:info@tverdomer.ru" class="footer__mail">info@tverdomer.ru</a>
+                    </div>
+
+                    <div class="footer__contact__info">
+                        <h5 class="footer__header">
+                            Офис и производство
+                        </h5>
+                        <p class="footer__info__descr">
+                            124498, г. Москва, Зеленоград, 4922-й проезд, д. 4с4, Технопарк «ЭЛМА».
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="footer__down__container">
+            <p class="footer__info__descr">
+                COPYRIGHT © 1991-2023 ООО «ЦЕНТР МЕТ» Все права защищены
+            </p>
+            <p class="footer__info__descr">
+                <a href="#"><span class="footer__info__descr">
+                        Политика конфиденциальности
+                    </span>
+                </a>
+            </p>
+        </div>
+
+
+    </footer>
+
+
+
+
+
+
+
+    <script defer src="/main.js"></script>
+</body>
+
+</html>
