@@ -134,6 +134,14 @@ button {
     margin-right: 6%;
 }
 
+.header__mobile{
+    display: none;
+}
+
+.main__mobile{
+    display: none;
+}
+
 .nav__list {
     display: flex;
     justify-content: space-between;
@@ -181,7 +189,7 @@ button {
 }
 
 .nav__list__item {
-    margin-right: 7em;
+    margin-right: 6em;
     white-space: nowrap;
     position: relative;
     cursor: pointer;
@@ -2545,7 +2553,9 @@ footer {
 
 @media screen and (max-width: 431px) {
 
-
+    .main__mobile{
+        display: block;
+    }
 
     .header__container {
         display: none;
@@ -2953,7 +2963,7 @@ footer {
     .measure__mobile-img{
         position: relative;
         top: -100px;
-        left: 30px;
+        left: 50px;
         transition: opacity 0.3s ease-in-out;
     }
     
